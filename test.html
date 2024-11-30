@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!--1.Create a list of links styled differently for hover and active states.-->
+   <style>
+    
+        .one:hover{
+            color: red;
+        }
+        .one:active{
+            color: green;
+        }
+    
+    </style>
+    <!-- 2.Create a simple webpage with a title and a paragraph of text.-->
+     <style>
+         #id{
+        
+        font-family: Arial;
+        text-shadow: 2px 1px 2px ;
+      }
+      p{
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: justify;
+      }
+     </style>
+     <!--3.Create a card with a border, padding, and margin.-->
+     <style>
+        .card{
+            border: 1px solid gray;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+        }
+    </style>
+    <!--4.Create a responsive navigation bar with three links.-->
+    <style>
+        nav{
+            flex-direction: row;
+            
+
+        }
+    </style>
+    
+    <!--6.Create a button that changes color when hovered over.-->
+    <style>
+        #i{
+            background-color: blue;
+            color: white;
+        }
+        #i:hover{
+            background-color: darkblue;
+            transition: 0.3s;
+        }
+    </style>
+    <!--7.Create a button that scales when hovered over.-->
+    <style>
+        #h{
+            width: 150px;
+            height: 50px;
+        }
+        #h:hover{
+            transform: scale(1.2);
+        }
+    </style>
+    <!--8.Create a box that moves from left to right on the page-->
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(105, 48, 67);
+            animation-name: slide;
+            animation-duration: 3s;
+            position: relative;
+
+        }
+        @keyframes slide{
+            0%{left: 0;}
+            100%{left: 300px;}
+        }
+    </style>
+    <!--14.Using HTML, CSS change the styling of text selection  (Use  selection pseudo-element to do this ).-->
+    <style>
+        .css::selection{
+            background-color: black;
+            color: rgb(166, 166, 185);
+
+        }
+    </style>
+   
+</head>
+<body>
+    <!--1. Create a list of links styled differently for hover and active states.-->
+
+    <h1>CSS</h1>
+    <ul>
+        <li class="one"><a href="list1">Selectors</a></li>
+        <li class="one"><a href="list2">Colors</a></li>
+        <li class="one"><a href="list3">Borders</a></li>
+        <li class="one"><a href="list4">Gradients</a></li>
+        <li class="one"><a href="list5">Transistion</a></li>
+     </ul>
+    <!--2. Create a simple webpage with a title and a paragraph of text.-->
+    <h1 id="id">Art And Culture</h1>
+    <p>Culture plays an important role in the development of any nation. 
+       It represents a set of shared attitudes, values, goals and practices. 
+       Culture and creativity manifest themselves in almost all economic, social and other activities.
+        A country as diverse as India is symbolized by the plurality of its culture.</p><br><br>
+
+    <!--3.Create a card with a border, padding, and margin.-->
+    <div class="card">
+        <p>Create a card with a border, padding, and margin.</p>
+
+    </div><br><br>
+    <!--4.Create a responsive navigation bar with three links.-->
+    <nav>
+        <a href="about">About</a>
+        <a href="login">Login</a>
+        <a href="logout">Logout</a>
+    </nav><br><br>
+
+    
+    <!--6.Create a button that changes color when hovered over.-->
+    <button id="i">SignUp</button><br><br>
+
+    <!--7.Create a button that scales when hovered over.-->
+    <button id="h">Hover Me</button><br><br>
+
+    <!--8.Create a box that moves from left to right on the page-->
+    <div class="box">
+
+    </div><br><br>
+   <!--14.Using HTML, CSS change the styling of text selection  (Use  selection pseudo-element to do this ).-->
+    <div class="css">pseudo-element</div>
+</body>
+</html>
